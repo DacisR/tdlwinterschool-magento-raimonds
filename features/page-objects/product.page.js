@@ -1,5 +1,5 @@
 import { Page } from './page.js';
-import { browser, $ } from '@wdio/globals';
+import { $ } from '@wdio/globals';
 
 class ProductPage extends Page {
     get productTitle() { return $('.page-title span'); }

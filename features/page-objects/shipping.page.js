@@ -1,5 +1,5 @@
 import { Page } from './page.js';
-import { browser, $ } from '@wdio/globals';
+import { $ } from '@wdio/globals';
 
 class ShippingPage extends Page {
     get flatRateRadio() { return $('//td[text()="Flat Rate"]/parent::tr//input'); }
