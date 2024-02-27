@@ -1,5 +1,4 @@
 import { Page } from './page.js';
-import { $ } from '@wdio/globals';
 
 class OrderPage extends Page {
     get pageTitle() { return $('.page-title'); }
